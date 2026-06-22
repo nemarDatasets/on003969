@@ -1,28 +1,83 @@
 {
   "version": "2.0",
-  "dataset_id": "on003969",
-  "source": "openneuro",
-  "source_id": "ds003969",
+  "pipeline_stage": "enriched",
   "title": "Meditation vs thinking task",
-  "authors": {
-    "Arnaud Delorme": {},
-    "Claire Braboszcz": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Arnaud Delorme": {},
+    "Claire Braboszcz": {
+      "orcid": "0000-0001-9572-6653"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003969.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003969",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003969",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1371/journal.pone.0170647",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.2.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".m",
+    ".md",
+    ".ods",
+    ".tsv",
+    ".txt",
+    ".xls"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from participants performing alternating meditation and active thinking tasks. Data were collected at the Meditation Research Institute in Rishikesh, India, with participants completing four blocks consisting of two meditation periods (breath counting and tradition-specific) interspersed with two active thinking periods. The study investigates neural correlates of meditative states compared to cognitively engaged thinking. The research was approved by the Meditation Research Institute Indian ethical committee and the University of California San Diego IRB (project # 090731).",
+  "methods_description": "EEG data were collected while participants sat either on the floor or chair with eyes closed in a darkened room. Participants performed four blocks alternating between meditation and thinking tasks: the first meditation block involved breath counting meditation for all participants, while the second meditation block consisted of tradition-specific meditation (or breath counting for controls). Active thinking blocks required participants to think actively. Block order was counterbalanced across participants.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "meditation"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "cognitive task"
+    },
+    {
+      "term": "brain activity"
+    },
+    {
+      "term": "mindfulness"
+    },
+    {
+      "term": "breath counting"
+    },
+    {
+      "term": "Rishikesh"
+    }
+  ],
+  "source_hash": "527a2e12e11c01a5bd083515f4937a1f2229b6097d0d6dfd17208787ab546a99"
 }
